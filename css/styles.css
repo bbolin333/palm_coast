@@ -1,0 +1,135 @@
+body {
+    background-color: rgba(173, 216, 230, .5);
+    
+}
+
+
+footer {
+  margin: 0.85em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_headers {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.35em;
+}
+
+.nav_bar {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.footer_img {
+  width: 3%;
+}
+
+.restaraunt_headings {
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.restaraunt_p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#index_text {
+  margin: 0.75em;
+  padding: 0.5em;
+}
+
+#index_grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.2em;
+}
+
+#index_grid img {
+  width: 100%;
+  height: auto;
+}
+
+#activities_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 0.2em;
+}
+
+#activities_grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(50%);
+}
+
+#mamalings_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 0.2em;
+}
+
+#mamalings_grid img {
+  width: 100%;
+  height: 100%;
+}
+
+#piazza_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 0.2em;
+}
+
+#piazza_grid img {
+  width: 100%;
+  height: 100%;
+}
+
