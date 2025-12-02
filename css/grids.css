@@ -1,0 +1,29 @@
+/* ALL GRID AND GRID IMAGE STYLES */
+
+.sqr_grid_imgs {
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  border: 0.1em solid black;
+}
+
+.sqr_grids {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4em;
+}
+
+#activities_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 0.2em;
+}
+
+#activities_grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: circle(50%);
+}

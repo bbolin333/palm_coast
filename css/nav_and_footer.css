@@ -1,0 +1,29 @@
+/* NAV AND FOOTER CSS STYLES */
+
+footer {
+  margin: 0.85em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  list-style-type: none;
+}
+
+.nav_bar {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.footer_img {
+  width: 3%;
+}
